@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3
+{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: rgba(70, 33, 32, 0.842);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 10vh;
+  background-color: #FC4445;
+  color: black;
+}
+
+.nav-Links{
+  width:40%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+body {
+  background-color: #000000;
+  color: rgb(211, 8, 8);
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+} 
+
+button {
+  background-color: black;
   color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2
+{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.example:hover {
+  background: red;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.select {
+width: 400px;
+margin: 3rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
