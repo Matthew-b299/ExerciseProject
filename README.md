@@ -14,3 +14,5 @@ The second tool is a random exercise generator. Users are able to select the mus
 
 The third tool is a random meal generator. Similar to the exercise generator, this will allow users to choose between a vegetarian or non-vegetarian meal that is printed to the screen.
 
+## Tech Stack
+* React.js
