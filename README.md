@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# TheExerciseProject
 
 This project was my first project done using React.js. It combines some preminlary aspects of fitness and combines each feature into a single functional application
 
